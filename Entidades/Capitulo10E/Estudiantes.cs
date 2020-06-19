@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Cap10_12.Entidades.Capitulo10E
 {
-   public class Estudiante
+   public class Estudiantes
    {
         public string Nombres { get; set; }
         public string Apellidos { get; set; }
