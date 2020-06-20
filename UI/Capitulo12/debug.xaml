@@ -1,0 +1,20 @@
+﻿<Window x:Class="Cap10_12.UI.Capitulo12.debug"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap10_12.UI.Capitulo12"
+        mc:Ignorable="d"
+        Title="Debug" Height="150" Width="270" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10">
+            <Label Content="Mostrar factorial de 5i"></Label>
+            
+            <!--TextBox donde se mostrara el factorial de 5! y el boton que desenadenara el evento-->
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="FactorialTextBox" Width="150" Height="20" Margin="5,0" IsReadOnly="True" />
+                <Button Name="MostrarButton" Content="Mostrar" Width="60" Height="20" Click="MostrarButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

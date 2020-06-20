@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Cap10_12.UI.Capitulo12;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +25,13 @@ namespace Cap10_12
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void Capitulo12Button_Click(object sender, RoutedEventArgs e)
+        {
+            debug debug = new debug();
+            debug.Show();
         }
     }
 }

@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="UI\Capitulo10\" />
-    <Folder Include="UI\Capitulo12\" />
   </ItemGroup>
 
 </Project>
